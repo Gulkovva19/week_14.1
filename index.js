@@ -8,7 +8,7 @@ let calcSum = () => {
 
 }
 
-function calcSub() {
+let calcSub = () => {
     let a = document.getElementById
         ('subA').value;
     let b = document.getElementById
@@ -17,7 +17,7 @@ function calcSub() {
     document.getElementById('subAB').innerHTML = sub;
 }
 
-function calcMulti() {
+let calcMulti = () => {
     let a = document.getElementById
         ('multiA').value;
     let b = document.getElementById
@@ -26,7 +26,7 @@ function calcMulti() {
     document.getElementById('multiAB').innerHTML = multi;
 }
 
-function calcDiv() {
+let calcDiv = () => {
     let a = document.getElementById
         ('divA').value;
     let b = document.getElementById
